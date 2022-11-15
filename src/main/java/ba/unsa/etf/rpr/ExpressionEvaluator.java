@@ -3,17 +3,25 @@ package ba.unsa.etf.rpr;
 import java.util.Stack;
 
 public class ExpressionEvaluator {
-    private static Stack<String> operators;
-    private static Stack<Double> values;
+    private static final Stack<String> operators = new Stack<>();
+    private static final Stack<Double> values = new Stack<>();
 
     private static boolean getOperator (String str) {
+        if ("+-*/sqrt".contains(str)) {
+            operators.push(str);
+            System.out.println("ubacio je '" + str + "'");
+            return true;
+        }
+        return false;
+
+/*
         for (String s : "+ - * / sqrt".split(" ")) {
             if (s.equals(str)) {
                 operators.push(str);
                 return true;
             }
         }
-        return false;
+        return false;*/
     }
 
     private static void doOperation () {
@@ -44,18 +52,16 @@ public class ExpressionEvaluator {
         int parenthesisCheck = 0;
         for (String str : inputString.split(" ")) {
             boolean itIsOperator = false;
-            for (String s : "( + - * / sqrt )".split(" ")) {
-                if (s.equals(str)) {
-                    operator = str;
-                    itIsOperator = true;
-                    break;
-                }
+            if ("(+-*/sqrt)".contains(str)) {
+                operator = str;
+                itIsOperator = true;
             }
             if (!itIsOperator && !str.isEmpty()) {
                 try {
                     Double value = Double.parseDouble(str);
                 }
                 catch (Exception e) {
+                    System.out.println("parsiranje: '" + str + "'");
                     return false;
                 }
             }
@@ -76,8 +82,6 @@ public class ExpressionEvaluator {
     }
 
     public static Double evaluate(String inputString) throws RuntimeException {
-        operators = new Stack<String>();
-        values = new Stack<Double>();
         if (!isInputValid(inputString)) {
             throw new RuntimeException("Expression not valid");
         }
