@@ -40,12 +40,47 @@ public class ExpressionEvaluator {
     }
 
     private static boolean isInputValid (String inputString) {
+        String operator = new String();
+        int parenthesisCheck = 0;
+        for (String str : inputString.split(" ")) {
+            boolean itIsOperator = false;
+            for (String s : "( + - * / sqrt )".split(" ")) {
+                if (s.equals(str)) {
+                    operator = str;
+                    itIsOperator = true;
+                    break;
+                }
+            }
+            if (!itIsOperator && !str.isEmpty()) {
+                try {
+                    Double value = Double.parseDouble(str);
+                }
+                catch (Exception e) {
+                    return false;
+                }
+            }
+
+            /*
+            if (operator.equals("(")) {
+                parenthesisCheck++;
+            }
+            else if (operator.equals(")")) {
+                parenthesisCheck--;
+            }
+            if (parenthesisCheck > 1 || parenthesisCheck < 0) {
+                System.out.println("parenthesis je " + parenthesisCheck);
+                return false;
+            }*/
+        }
         return true;
     }
 
-    public static Double evaluate(String inputString) {
+    public static Double evaluate(String inputString) throws RuntimeException {
         operators = new Stack<String>();
         values = new Stack<Double>();
+        if (!isInputValid(inputString)) {
+            throw new RuntimeException("Expression not valid");
+        }
         for (String str : inputString.split(" ")) {
             if (getOperator(str) || str.equals("(")) {
                 continue;
