@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\Mersid\.jdks\openjdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\Mersid\AppData\Local\Temp\surefire3562515875183138742\surefirebooter7482270999687805400.jar C:\Users\Mersid\AppData\Local\Temp\surefire3562515875183138742 2022-11-15T22-58-46_779-jvmRun1 surefire16350467945603165421tmp surefire_012294841743853767843tmp"/>
+    <property name="sun.java.command" value="C:\Users\Mersid\AppData\Local\Temp\surefire8011487858146533744\surefirebooter10753997581977107061.jar C:\Users\Mersid\AppData\Local\Temp\surefire8011487858146533744 2022-11-16T15-55-31_057-jvmRun1 surefire2177273062008253270tmp surefire_011879108649446428562tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\test-classes;C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\classes;C:\Users\Mersid\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\Mersid\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Mersid\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\Mersid\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Mersid\AppData\Local\Temp\surefire3562515875183138742\surefirebooter7482270999687805400.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mersid\AppData\Local\Temp\surefire8011487858146533744\surefirebooter10753997581977107061.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19+36-2238"/>
