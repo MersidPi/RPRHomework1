@@ -1,24 +1,24 @@
 package ba.unsa.etf.rpr;
 
 /**
- * Hello world!
- *
+ * Entry point to ExpressionEvaluator class that implements Dijkstra's Algorithm for expression evaluation
+ * @Author Mersid Pilipović
  */
 public class App {
     public static void main( String[] args ) {
-        /*System.out.println("Evaluating expression with Dijkstra's Algorithm");
-        System.out.println("Examples of expression: ( 2 + 3 ), ( 5 * ( 6 * sqrt ( 3 ) ) )");
-        System.out.println("Enter expression:");*/
-        System.out.println("Evaluating expression with Dijkstra's Algorithm...");
-        StringBuilder expression = new StringBuilder(new String());
-        for (String arg : args) {
-            if (arg.equals("'*")) {
-                expression.append("* ");
-            }
-            else {
-                expression.append(arg).append(" ");
-            }
+        System.out.println("\n\n---------------------------------------------------------------------\n" +
+                "Make sure that the input expression is one parameter and in form of examples:" +
+                "\n\"( 6 * 3 )\",  \"( ( 6 * sqrt ( 8 ) ) - ( 5 / 6 ) )\",  \"sqrt ( 3 )\"" +
+                "\n\"( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )\" "+
+                "\nIf you don't follow these forms of expression, result may not be correct.");
+        String unos = " sqrt ( 3  ) ";
+        try {
+            System.out.println("\nEvaluating expression with Dijkstra's Algorithm..." +
+                    "\nResult: " + unos + " = " + ExpressionEvaluator.evaluate(unos));
         }
-        System.out.println("Result: " + ExpressionEvaluator.evaluate(expression.toString()));
+        catch (Exception e) {
+            System.out.println("Exception was thrown: " + e);
+        }
+        System.out.println("---------------------------------------------------------------------\n");
     }
 }
