@@ -14,7 +14,7 @@ public class App {
     public static void main( String[] args ) {
         System.out.println("\n\n---------------------------------------------------------------------\n" +
                 "Make sure that the input expression is one parameter and in form of examples:" +
-                "\n\"( 6 * 3 )\",  \"( ( 6 * sqrt ( 8 ) ) - ( 5 / 6 ) )\",  \"sqrt ( 3 )\"" +
+                "\n\"( 6 * 3 )\",  \"( ( 6 * sqrt ( 8 ) ) - ( 5 / 6 ) )\",  \"sqrt ( 3 )\""  +
                 "\n\"( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )\",  \"sqrt ( ( 70 - 6 ) )\" "+
                 "\nIf you don't follow these forms of expression, result may not be correct or exception will be thrown.");
 
