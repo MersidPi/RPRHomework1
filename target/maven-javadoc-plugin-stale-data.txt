@@ -1,0 +1,58 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Mersid/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar;C:/Users/Mersid/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar;C:/Users/Mersid/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar;C:/Users/Mersid/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar;C:/Users/Mersid/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/src/main/java;C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'rpr-zadaca1 0.1 API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'rpr-zadaca1 0.1 API'
+ba.unsa.etf.rpr
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/src/main/java/ba/unsa/etf/rpr/App.java'
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/src/main/java/ba/unsa/etf/rpr/ExpressionEvaluator.java'
+C:\Users\Mersid\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar = 1668110166507
+C:\Users\Mersid\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar = 1668110166574
+C:\Users\Mersid\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar = 1668110166518
+C:\Users\Mersid\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar = 1668374905677
+C:\Users\Mersid\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar = 1668374905012
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\src\main\java = 1668535015446
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\generated-sources\annotations = 1668898571148
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\allclasses-index.html = 1668898650487
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\allpackages-index.html = 1668898650492
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\copy.svg = 1668898650559
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\element-list = 1668898650396
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\help-doc.html = 1668898650545
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\index-all.html = 1668898650522
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\index.html = 1668898650531
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\jquery-ui.overrides.css = 1668898650590
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\member-search-index.js = 1668898650504
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\module-search-index.js = 1668898650496
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\overview-tree.html = 1668898650466
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\package-search-index.js = 1668898650499
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\script.js = 1668898650555
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\search-page.js = 1668898650568
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\search.html = 1668898650527
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\search.js = 1668898650564
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\stylesheet.css = 1668898650552
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\tag-search-index.js = 1668898650507
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\type-search-index.js = 1668898650502
