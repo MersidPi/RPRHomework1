@@ -11,5 +11,9 @@ Javadoc documentation can be found in /target/site/apidocs/index.html
 
 How to run the program:
 - Requirements: java and maven installed
-- Open project folder in console and run command: mvn clean install (to compile the program)
-- To execute the program, in the same folder run command: java -jar target/rpr-zadaca1-0.1.jar [expression] (in place of [expression] write expression in form "( 6 * 3 )" etc.
+- Open project folder in console and run command: 
+      mvn clean install 
+  (to compile the program)
+- To execute the program, in the same folder run command: 
+      java -jar target/rpr-zadaca1-0.1.jar [expression] 
+  (in place of [expression] write expression in form "( 6 * 3 )" etc.
