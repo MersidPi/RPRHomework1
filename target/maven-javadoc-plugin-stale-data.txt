@@ -1,0 +1,51 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/src/main/java;C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'rpr-zadaca1 0.1 API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'rpr-zadaca1 0.1 API'
+ba.unsa.etf.rpr
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/src/main/java/ba/unsa/etf/rpr/App.java'
+'C:/Users/Mersid/IdeaProjects/vjezba/rpr-zadaca1/src/main/java/ba/unsa/etf/rpr/ExpressionEvaluator.java'
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\src\main\java = 1668535015446
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\generated-sources\annotations = 1668850471037
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\allclasses-index.html = 1668850487051
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\allpackages-index.html = 1668850487057
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\copy.svg = 1668850487122
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\element-list = 1668850486960
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\help-doc.html = 1668850487111
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\index-all.html = 1668850487087
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\index.html = 1668850487096
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\jquery-ui.overrides.css = 1668850487149
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\member-search-index.js = 1668850487069
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\module-search-index.js = 1668850487061
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\overview-tree.html = 1668850487029
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\package-search-index.js = 1668850487063
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\script.js = 1668850487119
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\search-page.js = 1668850487131
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\search.html = 1668850487092
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\search.js = 1668850487127
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\stylesheet.css = 1668850487116
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\tag-search-index.js = 1668850487071
+C:\Users\Mersid\IdeaProjects\vjezba\rpr-zadaca1\target\site\apidocs\type-search-index.js = 1668850487066

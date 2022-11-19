@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Class that tests various inputs for evaluation of expressions in ExpressionEvaluatior
+ * Class that tests various inputs for evaluation of expressions in ExpressionEvaluator
  * @Author Mersid Pilipović
  */
 class ExpressionEvaluatorTest {
@@ -62,5 +62,12 @@ class ExpressionEvaluatorTest {
         assertThrows(RuntimeException.class, () -> {
             double result = ExpressionEvaluator.evaluate("lol");
         }, "Invalid expression");
+    }
+    /**
+     * Test for sqrt
+     */
+    @Test
+    void evaluate7() {
+        assertEquals(8, ExpressionEvaluator.evaluate("sqrt ( ( 70 - 6 ) )"));
     }
 }
