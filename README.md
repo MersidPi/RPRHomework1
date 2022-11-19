@@ -6,3 +6,5 @@ In ExpressionEvaluator class is method evaluate which evaluates expression, and 
 This is a console application and it needs to be run from console, with command 'java -jar rpr-zadaca1-0.1.jar [expression]' in folder target.
 In place of [expression] you can write expression which you want to be evaluated, but it needs to be written in form like these examples:
 "( 6 * 3 )",  "( ( 6 * sqrt ( 8 ) ) - ( 5 / 6 ) )",  "sqrt ( 3 )",  "( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )", where characters " " are obligatory.
+
+Javadoc documentation can be found in /target/site/apidocs/index.html
